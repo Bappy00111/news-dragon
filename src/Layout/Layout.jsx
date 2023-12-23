@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../pages/Shared/Header/Header';
 import Footer from '../pages/Shared/Footer/Footer';
+import RightSide from '../pages/RightSide/RightSide';
 
 const Layout = () => {
     return (
@@ -15,7 +16,7 @@ const Layout = () => {
                     <h1>Home page</h1>
                 </div>
                 <div>
-                    <h1>right side</h1>
+                    <RightSide></RightSide>
                 </div>
             </div>
             <Footer></Footer>
