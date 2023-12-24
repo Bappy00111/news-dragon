@@ -15,7 +15,7 @@ const RightSide = () => {
                     Github</button>
             </div>
             <div>
-                <h1 className='font-semibold text-3xl'>Find Us On</h1>
+                <h1 className='font-semibold text-3npmxl mb-4'>Find Us On</h1>
                 <ul className="menu  rounded py-3 divide-y divide-black-200 border">
                     <li className='text-xl'><Link>
                     <FaFacebook className='text-cyan-500 h-8 w-8 mr-2'></FaFacebook>
