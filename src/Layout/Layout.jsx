@@ -14,7 +14,7 @@ const Layout = () => {
                     <LeftSide></LeftSide>
                 </div>
                 <div>
-                    <h1>Home page</h1>
+                    <Outlet></Outlet>
                 </div>
                 <div>
                     <RightSide></RightSide>

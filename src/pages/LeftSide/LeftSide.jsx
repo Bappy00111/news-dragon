@@ -17,7 +17,7 @@ const LeftSide = () => {
             </div>
             <div className='pl-16 space-y-4 text-slate-500'>
                 {
-                    catagores.map(catagore => <Link to={`/catagore/:${catagore.id}`}><p
+                    catagores.map(catagore => <Link to={`/catagore/${catagore.id}`}><p
                     key={catagore.id} className='mb-4'>{catagore.name}</p></Link>)
                 }
             </div>
